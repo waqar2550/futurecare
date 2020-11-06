@@ -1,0 +1,440 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#paddingfor{
+    margin-top: 100px;
+    padding-top: 100px;
+}
+#fu{
+    font-family: 'Piazzolla', serif;
+}
+#navbarNav{ font-family: 'Piazzolla', serif;
+
+}
+#background_img{
+   
+    background-image: url(/PHOTOES/unsplash.jpg);
+    background-repeat: no-repeat;
+    height: 600px;cursor: pointer;
+   
+}
+ #heading{
+    font-family: 'Piazzolla', serif;
+    color: white;
+    padding: 50px;
+    margin-right: 40px;
+    
+}
+#heading:hover{
+    color: tomato;
+}
+#para{
+    display: flex;
+     /* justify-content: center; */
+    /* align-items: center; */
+} 
+   #para1{
+    color: white;
+    border: 2px solid;
+    padding: 18px; margin: 8px;
+    font-family: 'Piazzolla', serif;
+    font-size: 24px;}
+    #para2{
+        color: white;
+        border: 2px solid;
+        padding: 18px; margin: 8px;
+        font-family: 'Piazzolla', serif;
+        font-size: 24px;}
+        #para3{
+            color: white;
+            border: 2px solid;
+            padding: 18px; margin: 8px;
+            font-family: 'Piazzolla', serif;
+            font-size: 24px;}
+ .PARA_HEADING{
+         border: 1px lemonchiffon solid;
+         border-radius: 5px;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         background-color: lightcyan;
+         color: black;
+     } 
+    .PARA_HEADING:hover{color: tomato;
+        transform: scale(1.1);
+       }
+       /*======== about sections starts here ==========*/
+    
+.tabs .tab-content .img{
+     width: 100%;
+     height: 400px;
+ }
+ .tab-content a{
+     color: green;
+ }
+#green-pading{
+    margin-bottom:   5px;
+}
+ #about-green1{
+     color: white;
+    background: #117707;
+    border-radius: 20px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+ }
+ #about-green2{
+    color: white;
+   background: #117707;
+   border-radius: 20px;
+   margin-bottom: 10px;
+}
+#about-green3{
+    color: white;
+   background: #117707;
+   border-radius: 20px;
+   margin-bottom: 10px;
+}#about-green4{
+    color: white;
+   background: #117707;
+   border-radius: 20px;
+   margin-bottom: 10px;
+}#about-green5{
+    color: white;
+   background: #117707;
+   border-radius: 20px;
+   margin-bottom: 10px;
+}#about-green6{
+    color: white;
+   background: #117707;
+   border-radius: 20px;
+   margin-bottom: 10px;
+}
+ 
+
+ /* =====stories section======= */
+ .story-box{
+     padding: 15px;
+     background: rgb(209, 243, 198);
+     margin-bottom: 30px;
+     position: relative;
+ }
+ .story-box h2{
+     font-size: 24px;
+     font-weight: bold;
+     color: white;
+     mix-blend-mode: difference;
+ }
+ .story-box p{
+    font-size: 16px;
+    font-weight: light;
+    color: white;
+    mix-blend-mode: difference;
+
+ }
+ .overlay{
+     margin: 20px auto;
+     border: none;
+     padding: 10px 44px;
+     font-size: 20px;
+     display: inline-block;
+     position: relative;
+ }
+ .overlay:before{
+     transition: all 0.85s cubic-bezier(0.68,-0.55,0.265,1.55);
+     content: '';
+     width: 50%;
+     height: 100%;
+     background: #117707;
+     position: absolute;
+     top: 0px;
+     left: 0px;
+     border-radius: 10px 0px 0px 10px;
+ }
+ .overlay:hover:before{
+    background: #117707;
+    border-radius:10px;
+    width: 100%;
+}
+  /* ===== ends ofstories section======= */
+  /* ======projects sections starts here======= */
+  .project-container{
+      background: #477707;
+      position: relative;
+      overflow: hidden;
+  }
+  .donation{
+      background: #a1f19a;
+      color: black;
+      padding: 3px 3.5px;
+     position: absolute;
+     right: 0px;
+     top: 70%;
+     transform: translateX(110%);
+     transition: all .1s ease-in-out;
+  }
+.donation:hover{
+    color: black;
+}
+.project-container:hover .donation{transform: translateX(0%);
+}
+.outline{
+    display: inline-block;
+    vertical-align: middle;
+    transform: perspective(1px)translateZ(0);
+    box-shadow: 0 0 1p rgba(0,0,0,0);
+    position: relative;
+}
+.outline:hover{
+    transform: translate scale(1.1);
+}
+/* ========project section ends here========= */
+/* ========project section ends here========= */
+/* ========project section ends here========= */
+/* ========project section ends here========= */
+/* ========project section ends here========= */
+/* ===================================================================== */
+/* ********team section starts from here***** */
+.team{
+    background: white;
+    padding: 6-px 0 30px 0;
+}
+.team .team-1{
+    text-align: center;
+    margin-bottom: 80px;
+    position: relative;
+}
+.team .team-1 .pic{
+    border-radius: 4px;
+    overflow: hidden;
+}
+.team .team-1 img{
+    transition: ease-in-out 0.4s;
+}
+.team .team-1 :hover img{
+    transform: scale(1.1);
+}
+.team .team-1 .team-info{
+    position: absolute;
+    bottom: -48px;
+    left: 20px;
+    right: 20px;
+     background:#b3f19b 
+     linear-gradient(360deg,#b3f19b 0%,rgba 187,240,152,0.09 35%,rgb(5, 214, 9)100%);
+    padding: 15px 0;
+    border-radius: 4px;
+}
+.team-info{
+    background: #80a073
+    
+}
+.team .team-1 h4{
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: white;
+    position: relative;
+    padding-bottom: 10px;
+}
+.team .team-1 h4::after{
+    content: '';
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 1px;
+    background: #1d3501;
+    bottom: 0;
+    left: calc(50% - 25px);
+}
+.team .team-1 span{
+    font-style: italic;
+    display: block;
+    font-size: 13px;
+    color: white;
+}
+.team .team-1 .social{
+    margin-top: 15px;
+}
+.team .team-1 .social a{
+    transition: color 0.3s;
+    color: black;
+}
+.team .team-1 .social a:hover{
+    color: white;
+}
+.team .team-1 .social i{
+    font-size: 16px;
+    margin: 0 2px;
+}
+@media (max-width:992px){
+    .team .team-1 {
+        margin-bottom: 100px;
+    }
+
+}
+/* *******finished projects****** */
+
+.projects-item{
+    display: block;
+    position: relative;
+    overflow: hidde;
+    max-width: 530px;
+    margin: auto auto 25px;
+    padding: 10px;
+   
+}
+.text{
+    color: black;
+}
+.projects-item .text .des{
+    color: white;
+    margin: 14px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media(min-width:992px){
+    .projects-item{
+        max-width: none;
+        margin: 0;
+    }
+    .projects-item .text{
+        transition: clip-path 0.25s ease-in-out,
+        background-color 0.7s;
+    }
+    .projects-item .text .des{
+        transition: opacity 0.25s;
+        margin-left: 80px;
+        margin-right: 80px;
+        margin-bottom: 80px;
+    }
+    .projects-item img{
+        transition: clip-path 0.25s ease-out;
+        clip-path: inset(-1px);
+}
+.projects-item:hover img{
+    clip-path: inset(32px);
+}
+.projects-item:hover .text{
+    background-color: black;
+}
+}
+/* ===========donations========== */
+.donation-form .input-field .input-group{
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 7px;
+    padding: 5px 10px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0,16);
+}
+.donation-form .input-field .input-group .input-group-text{
+    font-size: 16px;
+    background: transparent;
+    border: 0;
+    font-weight: bold;
+}
+.donation-form .input-field .input-group .form-control{
+    transition: border-color .15s ease-in-out box-shadow .15s ease-in-out;
+    border-bottom: 0;
+    border-top: 0;
+    border-radius: 0;
+}
+.donation-form .input-field .input-group .form-control::placeholder{
+    font-size: 16px;
+    color: white;
+    font-weight: 400px;
+}
+.donation-form .input-field .input-group .form-control:focus{
+    outline: none;
+    box-shadow: 0;
+}
+.donation-form .amount .need{
+    box-shadow: 0 3px 6px black;
+    padding: 18px 27px;
+    border-radius: 7px;
+    border: 1px solid green;
+    display: block;
+    overflow: hidden;
+}
+@media(max-width:767px){
+    .donation-form .amount .need{
+        display: block !important;
+        margin-top: 15px;
+    }
+}
+.donation-form .amount .need .select h5{
+    font-size: 16px;
+    color: #7a7b7c;
+    margin: 0;
+}
+@media(max-width:767px){
+    .donation-form .amount .need .fund{
+        width: 33.33%;
+        float: left;
+        margin-top: 15px;
+    }
+}
+.donation-btn{
+    margin-top: 40px;
+}
+/* ================footer-------- */
+.footer{
+    background: #a1f19a;
+    padding: 0 0 30px 0;
+    color: #000;
+    font-size: 15px;
+}
+.footer .fooer-top{
+    padding: 60px 0 30px 0 ;
+}
+.footer .fooer-top .fooer-dec{
+    margin-top: -90px;
+    margin-bottom: 15px;
+    background: #053001;
+    color: white;
+    border-top: 4px solid #a1f19a;
+    padding: 30px 20px;
+    align-items: center;
+}
+.footer .fooer-top .fooer-dec h3{
+    font-size: 24px;
+    padding: 2px 0 2px 0;
+    margin: 0 0 2px 0;
+    line-height: 1px;
+    font-weight: bold;
+}
+.footer .fooer-top .fooer-dec p{
+    font-size: 14px;
+    line-height: 2px;
+    margin-bottom: 0;
+}
+.footer .fooer-top .social-links a{
+    font-size: 14px;
+    background: #a1f19a;
+    display: inline-block;
+    line-height: 1px;
+    color: black;
+    padding: 8px 0;
+    margin-right:4px ;
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    transition: 0.3s;
+}
+a{
+    color: white;
+#fot_back{
+    background:#a1f19a;
+}
+#contact-back{
+    background-color: greenyellow;
+}
+#contact_us{
+    color: #117707;
+    font-size: large;
+    font-weight: bold;
+}
+
